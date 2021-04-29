@@ -2,12 +2,13 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import "@/assets/js/app.js"
 
 Vue.config.productionTip = false;
 
 import http from "./http/http.js";
 Vue.prototype.$http = http;
-
+ 
 import axios from "axios";
 Vue.prototype.$axios = axios;
 
