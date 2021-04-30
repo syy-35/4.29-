@@ -29,6 +29,31 @@ const routes = [
     name:"six",
     component:()=>import("../views/Six.vue")
   },
+  {
+    path:"/seven",
+    name:"seven",
+    component:()=>import("../views/Seven.vue")
+  },
+  {
+    path:"/share",
+    name:"share",
+    component:()=>import("../views/SevenShare.vue")
+  },
+  {
+    path:"/nine",
+    name:"nine",
+    component:()=>import("../views/Nine.vue")
+  },
+  {
+    path:"/list",
+    name:"list",
+    component:()=>import("../views/NineList.vue")
+  },
+  {
+    path:"/ten",
+    name:"ten",
+    component:()=>import("../views/Ten.vue")
+  },
 
 ];
 

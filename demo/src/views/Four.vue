@@ -1,4 +1,5 @@
 <template>
+
   <div class="all">
     <div class="nav">
       <ul>
@@ -32,27 +33,24 @@
     <footer>
       <img src="/syy/footer.jpg" alt="">
     </footer>
-  </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      list:[]
-    }
+      list: [],
+    };
   },
-  methods: {
-
-  },
+  methods: {},
   mounted() {
     //获取数据
-    this.$http("/four.json","get").then((res)=>{
+    this.$http("/four.json", "get").then((res) => {
       console.log(res.data.list);
       this.list = res.data.list;
-    })
+    });
   },
-}
+};
 </script>
 
 <style scoped>
@@ -65,30 +63,30 @@ export default {
   background-color: #ccc;
 }
 .nav {
-  font-size: .3rem;
+  font-size: 0.3rem;
 }
 .nav ul {
   display: flex;
   justify-content: space-around;
-  padding: .2rem 0;
-  border-top: .02rem solid #ccc;
+  padding: 0.2rem 0;
+  border-top: 0.02rem solid #ccc;
   background-color: #fff;
 }
 .nav ul li {
-  border-right: .02rem solid black;
+  border-right: 0.02rem solid black;
   text-align: center;
 }
 .main ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: .3rem .2rem;
-  font-size: .2rem;
-  margin-top: .3rem;
+  padding: 0.3rem 0.2rem;
+  font-size: 0.2rem;
+  margin-top: 0.3rem;
 }
 .main ul li {
   width: 48%;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
   background-color: #fff;
   text-align: center;
 }
@@ -96,8 +94,8 @@ export default {
   width: 100%;
 }
 .fenye {
-  margin: .2rem .2rem;
-  font-size: .3rem;
+  margin: 0.2rem 0.2rem;
+  font-size: 0.3rem;
 }
 .fenye ul {
   display: flex;
