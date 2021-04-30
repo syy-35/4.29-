@@ -161,7 +161,6 @@ ul li {
 h1 {
   font-size: 20px;
   border-left: 5px solid #39c894;
-  /* margin-left: 5px; */
   padding: 0 10px;
 }
 .pic {
