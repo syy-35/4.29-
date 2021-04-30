@@ -7,7 +7,7 @@
         <li>户型</li>
         <li>区域</li>
         <li>风格</li>
-        <li><img src="/syy/search.png" alt=""></li>
+        <li  id="nav_r"><img src="/syy/search.png" alt=""></li>
       </ul>
     </div>
 
@@ -78,8 +78,18 @@ export default {
   background-color: #fff;
 }
 .nav ul li {
-  border-right: 0.02rem solid black;
+  border-right: 0.02rem solid #ccc;
   text-align: center;
+  width: 25%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.nav ul li img {
+  width: 0.5rem;
+  vertical-align: middle;
+}
+#nav_r {
+  border-right: none ;
 }
 .main ul {
   display: flex;
