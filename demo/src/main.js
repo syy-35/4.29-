@@ -4,7 +4,10 @@ import router from "./router";
 import store from "./store";
 import "@/assets/js/app.js"
 import "@/assets/img/iconfont/iconfont.css"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b5b8029370784e700769462bb33e8ad5fdb4fe8
 
 Vue.config.productionTip = false;
 
@@ -22,6 +25,10 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 Vue.use(ElementUI);
 // 全局引入element-ui
+
+//方先森头部
+import heads from "@/components/Heads.vue";
+Vue.component("Heads",heads)
 
 new Vue({
   router,

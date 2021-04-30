@@ -216,6 +216,7 @@
     <div class="foot">
       <img src="@/assets/img/syx/012.png" alt="">
     </div>
+  <div>
   </div>
 </template>
 
