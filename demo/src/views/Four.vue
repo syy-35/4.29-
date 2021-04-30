@@ -1,6 +1,7 @@
 <template>
 
   <div class="all">
+    <Heads class="tou">效果图</Heads>
     <div class="nav">
       <ul>
         <li>户型</li>
@@ -63,13 +64,16 @@ export default {
 .all {
   background-color: #ccc;
 }
+.tou {
+  background-color: #fff;
+}
 .nav {
   font-size: 0.3rem;
 }
 .nav ul {
   display: flex;
   justify-content: space-around;
-  padding: 0.2rem 0;
+  padding: 0.1rem 0;
   border-top: 0.02rem solid #ccc;
   background-color: #fff;
 }
