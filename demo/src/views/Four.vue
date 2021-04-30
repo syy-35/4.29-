@@ -33,6 +33,7 @@
     <footer>
       <img src="/syy/footer.jpg" alt="">
     </footer>
+  </div>
 </template>
 
 <script>
