@@ -25,6 +25,8 @@ Vue.use(ElementUI);
 import heads from "@/components/Heads.vue";
 Vue.component("Heads",heads)
 
+import "@/assets/img/iconfont/iconfont.css"
+
 new Vue({
   router,
   store,

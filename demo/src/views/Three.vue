@@ -1,5 +1,7 @@
 <template>
   <div> 
+
+    <Heads>装修流程</Heads>
     <div class="lyy">
       <img src="@/assets/img/切图/process/process1.jpg" alt="" width="100%" >
       <img src="@/assets/img/切图/process/process2.jpg" alt="" width="100%" >
@@ -60,8 +62,9 @@
          </div>
 
       <div class="lyyy5">
-      NO.8家居生活
+      NO.12家居生活
     </div>
+     <img src="@/assets/img/切图/footer.png" alt="" width="100%">
   </div>
 </template>
 
@@ -126,5 +129,91 @@ export default {
   font-size: .26rem;
   color: #000;
 }
+
+.lyy1{
+  position: absolute;
+  top:12rem;
+  right: 1rem;
+  font-size: .36rem;
+  color: #1b9af7;
+  
+}
+
+.lyy2{
+   position: absolute;
+  top: 13.5rem;
+  right: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+.lyy3{
+   position: absolute;
+  top: 15.2rem;
+  left: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+.lyy4{
+   position: absolute;
+  top: 16.7rem;
+  right: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+
+.lyy5{
+   position: absolute;
+  top: 18.3rem;
+  right: 4.1rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+
+.lyyy1{
+  position: absolute;
+  top:21rem;
+  left: 1rem;
+  font-size: .36rem;
+  color: #7b729e;
+}
+
+
+.lyyy2{
+   position: absolute;
+  top: 22.5rem;
+  left: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+.lyyy3{
+   position: absolute;
+  top: 24.1rem;
+  left: 3.9rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+.lyyy4{
+   position: absolute;
+  top: 25.7rem;
+  left: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+.lyyy5{
+   position: absolute;
+  top: 27.2rem;
+  right: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+
+
 
 </style>
