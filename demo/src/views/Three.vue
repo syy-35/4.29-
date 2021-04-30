@@ -26,6 +26,42 @@
 
 
 
+    
+    <div class="lyy1">
+      【装修中】
+    </div>
+     <div class="lyy2">
+      NO.5材料选择
+    </div>
+     <div class="lyy3">
+      NO.6水电工程
+    </div>
+     <div class="lyy4">
+      NO.7泥土工程
+    </div>
+
+      <div class="lyy5">
+      NO.8油漆工程
+    </div>
+
+
+   
+    <div class="lyyy1">
+      【装修后】
+    </div>
+     <div class="lyyy2">
+      NO.9装修验房
+    </div>
+     <div class="lyyy3">
+      NO.10去污保洁
+    </div>
+     <div class="lyyy4">
+      NO.11软装搭配
+         </div>
+
+      <div class="lyyy5">
+      NO.8家居生活
+    </div>
   </div>
 </template>
 
