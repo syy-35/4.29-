@@ -22,6 +22,10 @@ import "element-ui/lib/theme-chalk/index.css";
 Vue.use(ElementUI);
 // 全局引入element-ui
 
+//方先森头部
+import heads from "@/components/Heads.vue";
+Vue.component("Heads",heads)
+
 new Vue({
   router,
   store,
