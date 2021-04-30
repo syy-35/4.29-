@@ -1,6 +1,67 @@
 <template>
-  <div>
+  <div> 
+    <div class="lyy">
+      <img src="@/assets/img/切图/process/process1.jpg" alt="" width="100%" >
+      <img src="@/assets/img/切图/process/process2.jpg" alt="" width="100%" >
+      <img src="@/assets/img/切图/process/process3.png" alt="" width="100%" >
+      <img src="@/assets/img/切图/process/process4.jpg" alt="" width="100%" >
+    </div>
 
+    <div class="ly1">
+      【装修前】
+    </div>
+     <div class="ly2">
+      NO.1收房验房
+    </div>
+     <div class="ly3">
+      NO.2装修预算
+    </div>
+     <div class="ly4">
+      NO.3装修风水
+    </div>
+
+      <div class="ly5">
+      NO.4装修设计
+    </div>
+
+
+
+    
+    <div class="lyy1">
+      【装修中】
+    </div>
+     <div class="lyy2">
+      NO.5材料选择
+    </div>
+     <div class="lyy3">
+      NO.6水电工程
+    </div>
+     <div class="lyy4">
+      NO.7泥土工程
+    </div>
+
+      <div class="lyy5">
+      NO.8油漆工程
+    </div>
+
+
+   
+    <div class="lyyy1">
+      【装修后】
+    </div>
+     <div class="lyyy2">
+      NO.9装修验房
+    </div>
+     <div class="lyyy3">
+      NO.10去污保洁
+    </div>
+     <div class="lyyy4">
+      NO.11软装搭配
+         </div>
+
+      <div class="lyyy5">
+      NO.8家居生活
+    </div>
   </div>
 </template>
 
@@ -19,6 +80,51 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+*{
+  margin: 0;
+  padding: 0;
+}
+.lyy{
+   position: relative;
+
+}
+
+.ly1{
+  position: absolute;
+  top: 3rem;
+  left: 1rem;
+  font-size: .36rem;
+  color: #ff4351;
+  
+}
+.ly2{
+   position: absolute;
+  top: 4.7rem;
+  left: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+.ly3{
+   position: absolute;
+  top: 6.2rem;
+  left: 4rem;
+  font-size: .26rem;
+  color: #000;
+}
+.ly4{
+   position: absolute;
+  top: 7.8rem;
+  left: 1.8rem;
+  font-size: .26rem;
+  color: #000;
+}
+.ly5{
+   position: absolute;
+  top: 9.4rem;
+  left: 4rem;
+  font-size: .26rem;
+  color: #000;
+}
 
 </style>
