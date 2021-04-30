@@ -1,5 +1,4 @@
 <template>
-
   <div class="all">
     <Heads class="tou">效果图</Heads>
     <div class="nav">
@@ -8,17 +7,18 @@
         <li>区域</li>
         <li>风格</li>
         <li  id="nav_r"><img src="/syy/search.png" alt=""></li>
+        <li><img src="/syy/search.png" alt="" /></li>
       </ul>
     </div>
 
     <div class="main">
       <ul>
         <li v-for="item in list" :key="item.id">
-          <img :src="item.img" alt="">
-          <p>{{item.title}}</p>
-          <span>{{item.style}}</span>
-          <span>{{item.number}}</span>
-          <span>{{item.price}}</span>
+          <img :src="item.img" alt="" />
+          <p>{{ item.title }}</p>
+          <span>{{ item.style }}</span>
+          <span>{{ item.number }}</span>
+          <span>{{ item.price }}</span>
         </li>
       </ul>
     </div>
@@ -32,7 +32,7 @@
     </div>
 
     <footer>
-      <img src="/syy/footer.jpg" alt="">
+      <img src="/syy/footer.jpg" alt="" />
     </footer>
   </div>
 </template>
