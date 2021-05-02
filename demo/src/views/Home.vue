@@ -1,5 +1,6 @@
 <template>
   <div class="body">
+    <Heads></Heads>
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
       <van-swipe-item
         ><img src="@/assets/img/切图/banner.jpg" alt=""
