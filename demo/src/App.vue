@@ -11,6 +11,9 @@
   padding: 0;
   list-style: none;
 }
+html,body{
+  overflow-x:hidden ;//多出隐藏
+}
 
 
 </style>
