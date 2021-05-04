@@ -1,6 +1,11 @@
 <template>
   <div>
-
+    <Heads>装修方案</Heads>
+    <div class="kong"></div>
+    
+  <img src="@/assets/img/切图/shisi.png" alt="" width="100%">
+  <img src="@/assets/img/切图/footer.png" alt="" width="100%">
+    
   </div>
 </template>
 
@@ -18,7 +23,7 @@ export default {
   },
 }
 </script>
-
-<style scoped>
+ 
+<style lang="scss" scoped>
 
 </style>

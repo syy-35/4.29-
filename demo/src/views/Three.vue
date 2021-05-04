@@ -1,13 +1,14 @@
 <template>
   <div> 
 
-    <Heads>装修流程</Heads>
+<Heads >装修流程</Heads>
+    
     <div class="lyy">
       <img src="@/assets/img/切图/process/process1.jpg" alt="" width="100%" >
       <img src="@/assets/img/切图/process/process2.jpg" alt="" width="100%" >
       <img src="@/assets/img/切图/process/process3.png" alt="" width="100%" >
       <img src="@/assets/img/切图/process/process4.jpg" alt="" width="100%" >
-    </div>
+   
 
     <div class="ly1">
       【装修前】
@@ -66,6 +67,7 @@
     </div>
      <img src="@/assets/img/切图/footer.png" alt="" width="100%">
   </div>
+   </div>
 </template>
 
 <script>
@@ -87,6 +89,11 @@ export default {
 *{
   margin: 0;
   padding: 0;
+}
+.qq{
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .lyy{
    position: relative;
