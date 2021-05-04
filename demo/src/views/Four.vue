@@ -1,10 +1,12 @@
 <template>
   <div class="all">
+    <Heads class="tou">效果图</Heads>
     <div class="nav">
       <ul>
         <li>户型</li>
         <li>区域</li>
         <li>风格</li>
+        <li  id="nav_r"><img src="/syy/search.png" alt=""></li>
         <li><img src="/syy/search.png" alt="" /></li>
       </ul>
     </div>
@@ -62,19 +64,32 @@ export default {
 .all {
   background-color: #ccc;
 }
+.tou {
+  background-color: #fff;
+}
 .nav {
   font-size: 0.3rem;
 }
 .nav ul {
   display: flex;
   justify-content: space-around;
-  padding: 0.2rem 0;
+  padding: 0.1rem 0;
   border-top: 0.02rem solid #ccc;
   background-color: #fff;
 }
 .nav ul li {
-  border-right: 0.02rem solid black;
+  border-right: 0.02rem solid #ccc;
   text-align: center;
+  width: 25%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.nav ul li img {
+  width: 0.5rem;
+  vertical-align: middle;
+}
+#nav_r {
+  border-right: none ;
 }
 .main ul {
   display: flex;

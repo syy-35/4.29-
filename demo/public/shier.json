@@ -1,0 +1,53 @@
+{
+    "list":[
+        {
+            "img":"/syy/shier.jpg",
+            "title":"欧美文化的抽象美感",
+            "style":"混搭",
+            "size":"三室",
+            "price":"1100元/㎡"
+        },
+        {
+            "img":"/syy/shier2.jpg",
+            "title":"曲线和非对称线构成的雅致",
+            "style":"简约",
+            "size":"三室",
+            "price":"1100元/㎡"
+        },
+        {
+            "img":"/syy/shier3.jpg",
+            "title":"低彩度的温暖气息",
+            "style":"混搭",
+            "size":"三室",
+            "price":"1100元/㎡"
+        },
+        {
+            "img":"/syy/shier4.jpg",
+            "title":"减化繁复的装饰  简约精致",
+            "style":"简约",
+            "size":"三室",
+            "price":"1100元/㎡"
+        },
+        {
+            "img":"/syy/shier5.jpg",
+            "title":"新中式  静雅之秋",
+            "style":"混搭",
+            "size":"三室",
+            "price":"1100元/㎡"
+        },
+        {
+            "img":"/syy/shier6.png",
+            "title":"盛放之美的新古典",
+            "style":"简约",
+            "size":"三室",
+            "price":"1100元/㎡"
+        },
+        {
+            "img":"/syy/shier7.jpg",
+            "title":"清新素雅的田园风",
+            "style":"混搭",
+            "size":"三室",
+            "price":"1100元/㎡"
+        }
+    ]
+}
