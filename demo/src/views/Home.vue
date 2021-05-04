@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-    <Heads></Heads>
+    <Heads class="top"></Heads>
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
       <van-swipe-item
         ><img src="@/assets/img/切图/banner.jpg" alt=""
@@ -232,6 +232,9 @@ export default {
 </script>
 
 <style scoped>
+.top{
+  background-color: #fff;
+}
 .my-swipe .van-swipe-item {
   color: #fff;
   font-size: 20px;
@@ -241,7 +244,7 @@ export default {
   width: 100%;
   height: 3.2rem;
 }
-#body {
+.body {
   background-color: #eaeaea;
   padding: 0;
   margin: 0;
