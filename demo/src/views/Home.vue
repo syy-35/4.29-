@@ -1,56 +1,74 @@
 <template>
 
+
   <div>
+
 
   <div class="body">
     <Heads class="top"></Heads>
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
-      <van-swipe-item
-        ><img src="@/assets/img/切图/banner.jpg" alt=""
-      /></van-swipe-item>
-      <van-swipe-item
-        ><img src="@/assets/img/切图/banner1.jpg" alt=""
-      /></van-swipe-item>
-      <van-swipe-item
-        ><img src="@/assets/img/切图/banner2.jpg" alt=""
-      /></van-swipe-item>
-      <van-swipe-item
-        ><img src="@/assets/img/切图/banner3.jpg" alt=""
-      /></van-swipe-item>
+      <van-swipe-item>
+        <img src="@/assets/img/切图/banner.jpg" alt />
+      </van-swipe-item>
+      <van-swipe-item>
+        <img src="@/assets/img/切图/banner1.jpg" alt />
+      </van-swipe-item>
+      <van-swipe-item>
+        <img src="@/assets/img/切图/banner2.jpg" alt />
+      </van-swipe-item>
+      <van-swipe-item>
+        <img src="@/assets/img/切图/banner3.jpg" alt />
+      </van-swipe-item>
     </van-swipe>
     <!-- 轮播图 -->
     <div class="iconnav">
       <ul>
         <li>
-          <p style="background: #39c894"><i class="iconfont">&#xe602;</i></p>
+          <p style="background: #39c894">
+            <i class="iconfont">&#xe602;</i>
+          </p>
           <p>装修方案</p>
         </li>
         <li>
-          <p style="background: #feb505"><i class="iconfont">&#xe606;</i></p>
+          <p style="background: #feb505">
+            <i class="iconfont">&#xe606;</i>
+          </p>
           <p>效果图</p>
         </li>
         <li>
-          <p style="background: #eed215"><i class="iconfont">&#xe609;</i></p>
+          <p style="background: #eed215">
+            <i class="iconfont">&#xe609;</i>
+          </p>
           <p>设计师</p>
         </li>
         <li>
-          <p style="background: #00b2b2"><i class="iconfont">&#xe603;</i></p>
+          <p style="background: #00b2b2">
+            <i class="iconfont">&#xe603;</i>
+          </p>
           <p>装修工地</p>
         </li>
         <li>
-          <p style="background: #1b9af7"><i class="iconfont">&#xe60b;</i></p>
+          <p style="background: #1b9af7">
+            <i class="iconfont">&#xe60b;</i>
+          </p>
           <p>装修攻略</p>
         </li>
         <li>
-          <p style="background: #7b72e9"><i class="iconfont">&#xe604;</i></p>
+          <p style="background: #7b72e9">
+            <i class="iconfont">&#xe604;</i>
+          </p>
           <p>装修贷款</p>
         </li>
         <li>
-          <p style="background: #ff4351"><i class="iconfont">&#xe62c;</i></p>
+          <p style="background: #ff4351">
+            <i class="iconfont">&#xe62c;</i>
+          </p>
           <p>免费预约</p>
         </li>
         <li>
-          <p style="background: #fe8864"><i class="iconfont">&#xe608;</i></p>
+          <p style="background: #fe8864">
+            <i class="iconfont">&#xe608;</i>
+          </p>
           <p>十秒报价</p>
         </li>
       </ul>
@@ -63,23 +81,25 @@
           <li>包设计、包主材、包水电、包施工</li>
         </ul>
       </div>
-      <van-swipe
-        class="my-swipe crice"
-        :autoplay="3000"
-        indicator-color="#39c894"
-      >
-        <van-swipe-item
-          ><img src="@/assets/img/切图/img1.jpg" alt=""
-        /></van-swipe-item>
-        <van-swipe-item
-          ><img src="@/assets/img/切图/banner1.jpg" alt=""
-        /></van-swipe-item>
+      <van-swipe class="my-swipe crice" :autoplay="3000" indicator-color="#39c894">
+        <van-swipe-item>
+          <img src="@/assets/img/切图/img1.jpg" alt />
+        </van-swipe-item>
+        <van-swipe-item>
+          <img src="@/assets/img/切图/banner1.jpg" alt />
+        </van-swipe-item>
       </van-swipe>
       <div class="con-botton">
         <ul>
-          <li><i class="iconfont">&#xe627;</i>0增项，标准施工</li>
-          <li><i class="iconfont">&#xe628;</i>杜绝项目外包</li>
-          <li><i class="iconfont">&#xe60c;</i>装修贷款</li>
+          <li>
+            <i class="iconfont">&#xe627;</i>0增项，标准施工
+          </li>
+          <li>
+            <i class="iconfont">&#xe628;</i>杜绝项目外包
+          </li>
+          <li>
+            <i class="iconfont">&#xe60c;</i>装修贷款
+          </li>
         </ul>
       </div>
     </div>
@@ -108,22 +128,22 @@
       <div class="con-van">
         <ul>
           <li>
-            <img src="@/assets/img/syx/001.png" alt="">
+            <img src="@/assets/img/syx/001.png" alt />
             <p>吴飞柯</p>
             <p>优秀</p>
           </li>
           <li>
-            <img src="@/assets/img/syx/002.png" alt="">
+            <img src="@/assets/img/syx/002.png" alt />
             <p>陆炎龙</p>
             <p>主任</p>
           </li>
           <li>
-            <img src="@/assets/img/syx/003.png" alt="">
+            <img src="@/assets/img/syx/003.png" alt />
             <p>张海建</p>
             <p>总监</p>
           </li>
           <li>
-            <img src="@/assets/img/syx/004.png" alt="">
+            <img src="@/assets/img/syx/004.png" alt />
             <p>陈冲</p>
             <p>优秀</p>
           </li>
@@ -143,21 +163,29 @@
       </div>
     </div>
     <!-- 设计师 -->
-     <div class="order xiao">
+    <div class="order xiao">
       <div class="order-top">
         <ul>
           <li>效果图</li>
         </ul>
       </div>
-     <div class="xiao-img">
-       <img src="@/assets/img/syx/005.png" alt="">
-       <ul>
-         <li><img src="@/assets/img/syx/006.png" alt=""></li>
-         <li><img src="@/assets/img/syx/007.png" alt=""></li>
-         <li><img src="@/assets/img/syx/008.png" alt=""></li>
-         <li><img src="@/assets/img/syx/009.png" alt=""></li>
-       </ul>
-     </div>
+      <div class="xiao-img">
+        <img src="@/assets/img/syx/005.png" alt />
+        <ul>
+          <li>
+            <img src="@/assets/img/syx/006.png" alt />
+          </li>
+          <li>
+            <img src="@/assets/img/syx/007.png" alt />
+          </li>
+          <li>
+            <img src="@/assets/img/syx/008.png" alt />
+          </li>
+          <li>
+            <img src="@/assets/img/syx/009.png" alt />
+          </li>
+        </ul>
+      </div>
       <div class="con-btn">
         <ul>
           <li>
@@ -172,15 +200,15 @@
       </div>
     </div>
     <!-- 效果图 -->
-     <div class="order sinatv">
+    <div class="order sinatv">
       <div class="order-top">
         <ul>
           <li>工地直播</li>
         </ul>
       </div>
-     <div class="xiao-img">
-       <img src="@/assets/img/syx/010.png" alt="">
-     </div>
+      <div class="xiao-img">
+        <img src="@/assets/img/syx/010.png" alt />
+      </div>
       <div class="con-btn">
         <ul>
           <li>
@@ -201,9 +229,9 @@
           <li>装修攻略</li>
         </ul>
       </div>
-     <div class="xiao-img">
-       <img src="@/assets/img/syx/011.png" alt="">
-     </div>
+      <div class="xiao-img">
+        <img src="@/assets/img/syx/011.png" alt />
+      </div>
       <div class="con-btn">
         <ul>
           <li>
@@ -218,7 +246,7 @@
       </div>
     </div>
     <div class="foot">
-      <img src="@/assets/img/syx/012.png" alt="">
+      <img src="@/assets/img/syx/012.png" alt />
     </div>
   </div>
   </div>
@@ -231,12 +259,12 @@ export default {
     return {};
   },
   methods: {},
-  mounted() {},
+  mounted() {}
 };
 </script>
 
 <style scoped>
-.top{
+.top {
   background-color: #fff;
 }
 .my-swipe .van-swipe-item {
