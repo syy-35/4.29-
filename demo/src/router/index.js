@@ -79,7 +79,41 @@ const routes = [
     name:"shisilist",
     component:()=>import("../views/ShisiList.vue")
   },
-
+  {
+    path:"/shiwu",
+    name:"shiwu",
+    component:()=>import("../views/Shiwu.vue")
+  },
+  {
+    path:"/shiliu",
+    name:"shiliu",
+    component:()=>import("../views/Shiliu.vue")
+  },
+  {
+    path:"/shiba",
+    name:"shiba",
+    component:()=>import("../views/Shiba.vue")
+  },
+  {
+    path:"/shiba2",
+    name:"shiba2",
+    component:()=>import("../views/Shiba2.vue")
+  },
+  {
+    path:"/shiba3",
+    name:"shiba3",
+    component:()=>import("../views/Shiba3.vue")
+  },
+  {
+    path:"/shijiu",
+    name:"shijiu",
+    component:()=>import("../views/Shijiu.vue")
+  },
+  {
+    path:"/ershi",
+    name:"ershi",
+    component:()=>import("../views/Ershi.vue")
+  },
 ];
 
 const router = new VueRouter({

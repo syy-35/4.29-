@@ -40,7 +40,6 @@ ul li {
 }
 .center {
   width: 30%;
-  border: 1px solid black;
   font-size: .5rem;
   text-align: center;
   color: black;
